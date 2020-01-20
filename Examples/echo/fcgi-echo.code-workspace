@@ -13,22 +13,22 @@
 			"path": "..\\..\\fcgi-2.4.1\\include"
 		},
 		{
-			"path": "c:\\apache24-64\\conf"
+			"path": "d:\\xampp\\apache\\conf"
 		},
 		{
-			"path": "R:\\Harbour_websites\\fcgi_echo\\backend"
+			"path": "d:\\hbweb\\fcgi_echo\\backend"
 		}
 
 	],
 	"settings": {
 		"files.autoSave": "onFocusChange",
-		"harbour.compilerExecutable": "C:\\Harbour\\bin\\win\\mingw64\\harbour.exe",
-		"harbour.extraOptions": "-iC:\\Harbour\\include",
-		"harbour.extraIncludePaths":["C:\\Harbour\\include\\",
-			                          "R:\\Harbour_FastCGI\\hb_fcgi\\"],
+		"harbour.compilerExecutable": "C:\\svn\\hb\\bin\\win\\mingw64\\harbour.exe",
+		"harbour.extraOptions": "-iC:\\svn\\hb\\include",
+		"harbour.extraIncludePaths":["C:\\svn\\hb\\include\\",
+			                          "c:\\svn\\Harbour_FastCGI\\hb_fcgi\\"],
 		"harbour.warningLevel":1,
 		"harbour.decorator":true,
-		"local-history.path": "R:\\VSCode_History\\Harbour_FastCGI",
+		"local-history.path": "D:\\VSCode_History\\Harbour_FastCGI",
 		"local-history.treeLocation": "localHistory",
 		"local-history.daysLimit": 0,
 		"local-history.maxDisplay": 5,
@@ -39,11 +39,11 @@
 			"commands": [
 				{
 					"name": "<Down>",
-					"command": "R:\\Harbour_FastCGI\\FCGITaskManager\\mingw64\\release\\FCGITaskManager.exe down http localhost 8164 /fcgi_echo/ R:/Harbour_websites/fcgi_echo/ echo"
+					"command": "c:\\svn\\Harbour_FastCGI\\FCGITaskManager\\mingw64\\release\\FCGITaskManager.exe down http localhost 8164 /fcgi_echo/ d:/hbweb/fcgi_echo/ echo"
 				},
 				{
 					"name": "<Activate echo>",
-					"command": "R:\\Harbour_FastCGI\\FCGITaskManager\\mingw64\\release\\FCGITaskManager.exe activate http localhost 8164 /fcgi_echo/ R:/Harbour_websites/fcgi_echo/ echo"
+					"command": "c:\\svn\\Harbour_FastCGI\\FCGITaskManager\\mingw64\\release\\FCGITaskManager.exe activate http localhost 8164 /fcgi_echo/ d:/hbweb/fcgi_echo/ echo"
 				},
 				// {
 				// 	"name": "<Activate echo1>",
@@ -59,7 +59,7 @@
 				// },
 				{
 					"name": "<Kill echo>",
-					"command": "R:\\Harbour_FastCGI\\FCGITaskManager\\mingw64\\release\\FCGITaskManager.exe kill http localhost 8164 /fcgi_echo/ R:/Harbour_websites/fcgi_echo/ echo"
+					"command": "c:\\svn\\Harbour_FastCGI\\FCGITaskManager\\mingw64\\release\\FCGITaskManager.exe kill http localhost 8164 /fcgi_echo/ d:/hbweb/fcgi_echo/ echo"
 				}
 			]
 		}

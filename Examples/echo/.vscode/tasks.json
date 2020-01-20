@@ -13,8 +13,8 @@
                     "EXEName":"echo",
                     "BuildMode":"release",
                     "HB_COMPILER":"${input:CCompiler}",
-                    "WebsiteDrive":"R:",
-                    "SiteRootFolder":"\\Harbour_websites\\fcgi_echo\\"
+                    "WebsiteDrive":"d:",
+                    "SiteRootFolder":"\\hbweb\\fcgi_echo\\"
                 }
             },
             "dependsOrder": "sequence",
@@ -38,8 +38,8 @@
                     "EXEName":"echo",
                     "BuildMode":"debug",
 					"HB_COMPILER":"${input:CCompiler}",
-                    "WebsiteDrive":"R:",
-                    "SiteRootFolder":"\\Harbour_websites\\fcgi_echo\\"
+                    "WebsiteDrive":"d:",
+                    "SiteRootFolder":"\\hbweb\\fcgi_echo\\"
                 }
             },
             "dependsOrder": "sequence",
@@ -63,7 +63,7 @@
             "label":"SoftKillFcgiExe",
             "type": "shell",
             "command":"${workspaceFolder}\\..\\..\\FCGITaskManager\\mingw64\\release\\FCGITaskManager.exe",
-            "args": ["kill","http","localhost","8164","/fcgi_echo/","R:/Harbour_websites/fcgi_echo/","echo",""]
+            "args": ["kill","http","localhost","8164","/fcgi_echo/","d:/hbweb/fcgi_echo/","echo",""]
         }
     ],
     "inputs": [

@@ -19,9 +19,9 @@ goto End
 
 if %HB_COMPILER% == msvc64 call "%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x86_amd64
 
-if %HB_COMPILER% == mingw64 set PATH=C:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;%PATH%
+if %HB_COMPILER% == mingw64 set PATH=D:\msys64\mingw64\bin;%PATH%
 
-set HB_PATH=C:\Harbour
+set HB_PATH=C:\svn\hb
 
 set PATH=%HB_PATH%\bin\win\%HB_COMPILER%;C:\HarbourTools;%PATH%
 
